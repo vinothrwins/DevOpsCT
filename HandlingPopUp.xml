@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Sanity Automation Suite">
+  <test name="HandlingPopup">
+    <classes>
+      <class name="com.nxtgenai.sanity.HandlingPopUp"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

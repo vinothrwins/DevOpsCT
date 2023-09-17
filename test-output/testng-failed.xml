@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity Automation Suite]">
+  <test thread-count="5" name="HandlingPopup(failed)">
+    <classes>
+      <class name="com.nxtgenai.sanity.HandlingPopUp">
+        <methods>
+          <include name="handlingPopUp"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- com.nxtgenai.sanity.HandlingPopUp -->
+    </classes>
+  </test> <!-- HandlingPopup(failed) -->
+</suite> <!-- Failed suite [Sanity Automation Suite] -->
