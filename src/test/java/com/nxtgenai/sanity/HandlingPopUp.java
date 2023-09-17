@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class HandlingPopUp {
@@ -17,11 +18,11 @@ public class HandlingPopUp {
 		// String url = "https://nxtgenaiacademy.com/alertandpopup/";
 		String url ="http://localhost:9090/PopUpHandling/";
 		// Set the system property for the edge driver file 
-		System.setProperty("webdriver.edge.driver", ".\\Drivers\\msedgedriver.exe");
+		System.setProperty("webdriver.gecko.driver", ".\\Drivers\\geckodriver.exe");
 
 		// Creating the object instance for the edge browser in the webdriver interface 
 		// classname objname = new classnameconstructor();
-		driver = new EdgeDriver();
+		driver = new FirefoxDriver();
 
 		// launch thr url
 		driver.get(url);
