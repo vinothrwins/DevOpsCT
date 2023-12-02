@@ -29,6 +29,7 @@ public class HandlingPopUp {
 		// maximize the browser
 		driver.manage().window().maximize();
 		System.out.println("Application is launched");
+		System.out.println("DevOps CI CD");
 
 	}	
 
