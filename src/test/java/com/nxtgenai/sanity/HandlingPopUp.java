@@ -15,7 +15,7 @@ public class HandlingPopUp {
 
 		// Input values
 		// String url = "https://nxtgenaiacademy.com/alertandpopup/";
-		String url ="http://localhost:9090/PopUpHandling/";
+		String url ="http://localhost:9090/PopUpHandling-0.0.1-SNAPSHOT/";
 		// Set the system property for the edge driver file 
 		System.setProperty("webdriver.gecko.driver", ".\\Drivers\\geckodriver.exe");
 
